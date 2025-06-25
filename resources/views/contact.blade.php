@@ -20,7 +20,15 @@
 
 <body>
     @include('partials.navbar')
+
     <div class="text-center">Contact</div>
+
+    <form>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT" />
+    </form>
 </body>
 
 </html>
