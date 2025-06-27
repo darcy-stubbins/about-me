@@ -1,5 +1,9 @@
-@import 'tailwindcss';
 @import "@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import './navbar.css';
+@import './card.css';
+@import './sidebar.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -14,5 +18,42 @@
 /* ---------- */
 /* Custom CSS */
 /* ---------- */
-@import './navbar.css';
-@import './contactform.css';
+
+
+body {
+    background: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.200) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, 0.200) .1em, transparent .1em);
+    background-size: 2em 2em;
+
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+}
+
+.header {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.text {
+    padding: 10px;
+}
+
+.img {
+    border: 3px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}

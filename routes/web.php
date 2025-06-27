@@ -13,7 +13,3 @@ Route::get('/education', function () {
 Route::get('/skills', function () {
     return view('skills');
 });
-
-Route::get('/contact', function () {
-    return view('contact');
-});

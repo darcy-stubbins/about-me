@@ -8,10 +8,6 @@
 
     <title>Document</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
-
     <!-- Styles / Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -19,8 +15,21 @@
 </head>
 
 <body>
+    @include('partials.sidebar')
     @include('partials.navbar')
-    <div class="text-center">Education</div>
+
+    <div class="header">Education</div>
+    <div class="card small">
+        <div>Midkent College</div>
+        <div>2017 - 2019</div>
+        <div>Maths and English GCSE qualifications at grades B and C, respectively.</div>
+        <div>Level 2 Diploma in Graphic Design.</div>
+    </div>
+    <div class="card small">
+        <div>The Open University</div>
+        <div>2020 - 2024</div>
+        <div>Bachelor of Science (Honours) in Computing and IT (2:2).</div>
+    </div>
 </body>
 
 </html>

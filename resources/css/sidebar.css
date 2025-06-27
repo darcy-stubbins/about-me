@@ -1,0 +1,15 @@
+/* Style the sidebar - fixed full height */
+.sidebar {
+    top: 60px;
+    bottom: 0;
+    background-color: #fbf4a0;
+    overflow-x: hidden;
+    border-left: 3px solid #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-self: end;
+    position: fixed;
+    justify-content: space-between;
+}

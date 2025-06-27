@@ -1,0 +1,31 @@
+.card {
+    margin: 60px;
+    padding: 16px;
+    max-width: 50rem;
+    justify-self: center;
+    text-align: center;
+    background-color: #f8e0fa;
+    border: solid #000;
+    border-radius: 7px;
+    box-shadow: 8px 9px 0px -3px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 8px 9px 0px -3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 9px 0px -3px rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+
+.small {
+    max-width: 40rem;
+}
+
+.row {
+    min-height: 50rem;
+}
+
+/* Responsive columns - one column layout on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
