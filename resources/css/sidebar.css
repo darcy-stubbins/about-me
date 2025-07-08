@@ -12,4 +12,5 @@
     justify-self: end;
     position: fixed;
     justify-content: space-between;
+    max-width: var(--sidebar-width);
 }

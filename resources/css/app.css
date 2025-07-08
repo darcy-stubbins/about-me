@@ -24,9 +24,13 @@ body {
     background: #ffffff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.200) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, 0.200) .1em, transparent .1em);
     background-size: 2em 2em;
-
     font-family: "Space Mono", monospace;
     font-weight: 700;
+    --sidebar-width: 350px;
+}
+
+.main-body-container {
+    max-width: calc(100% - var(--sidebar-width));
 }
 
 .header {
@@ -41,6 +45,21 @@ body {
     padding: 10px;
 }
 
+.side-header {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    word-break: normal;
+}
+
+.side-text {
+    padding: 10px;
+    padding-top: 20px;
+}
+
 .img {
     border: 3px solid #000;
     display: block;
@@ -48,7 +67,7 @@ body {
     margin-right: auto;
     width: 200px;
     border-radius: 70%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .icon {
@@ -56,4 +75,8 @@ body {
     text-align: center;
     font-size: 60px;
     padding: 10px;
+}
+
+.icon:hover {
+    color: rgb(28, 28, 28);
 }
