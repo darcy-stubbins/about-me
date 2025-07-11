@@ -1,0 +1,10 @@
+.icon {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.icon:hover {
+    color: rgb(211, 0, 0);
+}

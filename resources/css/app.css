@@ -4,6 +4,8 @@
 @import './navbar.css';
 @import './card.css';
 @import './sidebar.css';
+@import './icon.css';
+@import './image.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -26,11 +28,18 @@ body {
     background-size: 2em 2em;
     font-family: "Space Mono", monospace;
     font-weight: 700;
-    --sidebar-width: 350px;
+    --sidebar-width: 400px;
 }
 
+/* main body container*/
 .main-body-container {
     max-width: calc(100% - var(--sidebar-width));
+}
+
+@media screen and (max-width: 576px) {
+    .main-body-container {
+        max-width: 100%;
+    }
 }
 
 .header {
@@ -41,10 +50,20 @@ body {
     text-decoration-style: double;
 }
 
-.text {
-    padding: 10px;
+.subheader {
+    color: rgb(0, 0, 0);
+    text-decoration: underline black;
 }
 
+.date {
+    color: #4d4d4d;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+}
+
+/* sidebar header and text */
 .side-header {
     text-align: center;
     padding-top: 40px;
@@ -58,25 +77,4 @@ body {
 .side-text {
     padding: 10px;
     padding-top: 20px;
-}
-
-.img {
-    border: 3px solid #000;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    border-radius: 70%;
-    margin-bottom: 40px;
-}
-
-.icon {
-    color: black;
-    text-align: center;
-    font-size: 60px;
-    padding: 10px;
-}
-
-.icon:hover {
-    color: rgb(28, 28, 28);
 }

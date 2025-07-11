@@ -1,0 +1,17 @@
+.img {
+    border: 3px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 70%;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    .img {
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

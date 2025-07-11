@@ -15,20 +15,21 @@
 </head>
 
 <body>
-    @include('partials.sidebar')
     @include('partials.navbar')
+    @include('partials.sidebar')
+
     <div class="main-body-container">
         <div class="header">Education</div>
         <div class="card small">
-            <div>Midkent College</div>
-            <div>2017 - 2019</div>
-            <div>Maths and English GCSE qualifications at grades B and C, respectively.</div>
-            <div>Level 2 Diploma in Graphic Design.</div>
+            <div class="subheader">Midkent College</div>
+            <div class="date">2017 - 2019</div>
+            <p class="text">Maths and English GCSE qualifications at grades B and C, respectively.</p>
+            <p class="text">Level 2 Diploma in Graphic Design.</p>
         </div>
         <div class="card small">
-            <div>The Open University</div>
-            <div>2020 - 2024</div>
-            <div>Bachelor of Science (Honours) in Computing and IT (2:2).</div>
+            <div class="subheader">The Open University</div>
+            <div class="date">2020 - 2024</div>
+            <p class="text">Bachelor of Science (Honours) in Computing and IT (2:2).</p>
         </div>
     </div>
 </body>

@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    @include('partials.sidebar')
     @include('partials.navbar')
+    @include('partials.sidebar')
 
     <div class="main-body-container">
         <div class="header">Skills</div>
