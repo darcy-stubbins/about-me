@@ -27,7 +27,6 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.200) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, 0.200) .1em, transparent .1em);
     background-size: 2em 2em;
     font-family: "Space Mono", monospace;
-    font-weight: 700;
     --sidebar-width: 400px;
 }
 
@@ -36,7 +35,7 @@ body {
     max-width: calc(100% - var(--sidebar-width));
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
     .main-body-container {
         max-width: 100%;
     }
@@ -46,21 +45,28 @@ body {
     padding-top: 100px;
     text-align: center;
     font-size: 40px;
+    font-weight: bolder;
     text-decoration-line: underline;
     text-decoration-style: double;
 }
 
 .subheader {
     color: rgb(0, 0, 0);
-    text-decoration: underline black;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .date {
-    color: #4d4d4d;
+    color: #424242;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .text {
     color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 20px;
 }
 
 /* sidebar header and text */
@@ -69,12 +75,16 @@ body {
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 30px;
+    font-weight: bolder;
     text-decoration-line: underline;
     text-decoration-style: double;
     word-break: normal;
 }
 
 .side-text {
+    text-align: center;
     padding: 10px;
     padding-top: 20px;
+    font-size: 20px;
+    word-break: normal;
 }

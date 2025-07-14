@@ -30,7 +30,7 @@
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 40px;
     padding: 0.7rem;
 }
 
@@ -106,9 +106,8 @@
 }
 
 .navbar .menu-items li {
-    margin-bottom: 1.2rem;
-    font-size: 1.5rem;
-    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 40px;
     width: 100vw;
 }
 
