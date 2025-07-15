@@ -1,0 +1,11 @@
+.topbar {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .topbar {
+        background: #000;
+        display: flex;
+        /* make a top bar */
+    }
+}
