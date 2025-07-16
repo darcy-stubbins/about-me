@@ -2,7 +2,7 @@
     <div>
         <div class="side-header">
             Full Stack Web Development
-            <button id="toggle-topbar-button">X</button>
+            <a id="toggle-topbar-button"><i class="fa-solid fa-caret-down"></i></a>
         </div>
         <div>
             <img class="img" src="{{ asset('images/mesquared.jpeg') }}"></img>
