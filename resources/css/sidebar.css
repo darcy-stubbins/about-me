@@ -13,12 +13,6 @@
 
 @media screen and (max-width: 750px) {
     .sidebar {
-        display: flex;
-        max-width: 100%;
-        width: 100%;
-        background-color: #fbf4a0;
-        border-bottom: 3px solid #000;
-        border-left: none;
         display: none;
     }
 }

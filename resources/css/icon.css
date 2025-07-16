@@ -6,5 +6,11 @@
 }
 
 .icon:hover {
-    color: rgb(211, 0, 0);
+    color: rgb(82, 82, 82);
+}
+
+@media screen and (max-width: 750px) {
+    .icon {
+        font-size: 30px;
+    }
 }
