@@ -1,5 +1,5 @@
 <div id="topbar" class="open">
-    <div>
+    <div class="overflow-hidden">
         <div class="side-header">
             Full Stack Web Development
             <a id="toggle-topbar-button"><i class="fa-solid fa-caret-down"></i></a>

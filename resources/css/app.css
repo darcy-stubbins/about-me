@@ -7,6 +7,7 @@
 @import './icon.css';
 @import './image.css';
 @import './topbar.css';
+@import './utilities.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -37,7 +38,7 @@ body {
     width: 100%;
     min-height: 100%;
     overflow-y: scroll;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 750px) {
@@ -109,7 +110,6 @@ body {
 
 #full-body-container {
     display: flex;
-    justify-content: space-between;
     max-height: 94vh;
     min-height: 94vh;
     overflow: hidden;

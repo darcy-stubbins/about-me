@@ -11,6 +11,7 @@
                 <li><a href="/">About Me</a></li>
                 <li><a href="/education">Education</a></li>
                 <li><a href="/skills">Skills</a></li>
+                <li><a href="/test">Test</a></li>
             </div>
         </div>
     </div>
